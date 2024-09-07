@@ -35,7 +35,7 @@ namespace Content.IntegrationTests.Tests.Preferences
 - type: dataset
   id: sqlite_test_names_last_male
   values:
-  - Ackerley";
+  - Ackerley;
 
 - type: dataset
   id: sqlite_test_names_last_female
