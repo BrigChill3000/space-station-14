@@ -12,7 +12,7 @@ public sealed class LizardAccentSystem : EntitySystem
     private static readonly Regex RegexLowerEndX = new(@"\bx([\-|r|R]|\b)");
     private static readonly Regex RegexUpperEndX = new(@"\bX([\-|r|R]|\b)");
 
-    [Dependency] private readonly IRobustRandom _random = default!; // RUS-Start
+    [Dependency] private readonly IRobustRandom _random = default!; // RUS
 
     public override void Initialize()
     {
@@ -35,7 +35,7 @@ public sealed class LizardAccentSystem : EntitySystem
         // eckS
         message = RegexUpperEndX.Replace(message, "ECKS$1");
 
-        // Corvax-Localization-Start
+        // RUS-Start
         // c => ссс
         message = Regex.Replace(
             message,
