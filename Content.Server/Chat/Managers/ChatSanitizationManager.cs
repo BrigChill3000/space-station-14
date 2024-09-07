@@ -89,7 +89,7 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "[':", "chatsan-tearfully-smiles" },
         { "('=", "chatsan-tearfully-smiles" },
         { "['=", "chatsan-tearfully-smiles" },
-        // Rus-Start
+        // RUS-Start
         { "хд", "chatsan-laughs" },
         { "о-о", "chatsan-wide-eyed" }, // cyrillic о
         { "о.о", "chatsan-wide-eyed" }, // cyrillic о
@@ -114,7 +114,7 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { ")", "chatsan-smiles" },
         { "((", "chatsan-frowns-deeply" },
         { "(", "chatsan-frowns" },
-        // Rus-End
+        // RUS-End
     };
 
     private bool _doSanitize;
