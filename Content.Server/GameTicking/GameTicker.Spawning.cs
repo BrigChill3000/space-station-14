@@ -238,6 +238,7 @@ namespace Content.Server.GameTicking
 
             if (lateJoin && !silent)
             {
+
                 if (jobPrototype.JoinNotifyCrew)
                 {
                     _chatSystem.DispatchStationAnnouncement(station,

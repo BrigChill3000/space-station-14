@@ -87,8 +87,13 @@ public sealed partial class SpeciesPrototype : IPrototype
     [DataField]
     public string FemaleFirstNames { get; private set; } = "names_first_female";
 
+    // RUS-LastnameGender-Start: Split lastname field by gender
     [DataField]
-    public string LastNames { get; private set; } = "names_last";
+    public string MaleLastNames { get; private set; } = "names_last_male";
+
+    [DataField]
+    public string FemaleLastNames { get; private set; } = "names_last_female";
+    // RUS-End
 
     [DataField]
     public SpeciesNaming Naming { get; private set; } = SpeciesNaming.FirstLast;
